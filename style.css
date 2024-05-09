@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10px;
     flex: auto;
 }
 
@@ -26,7 +25,19 @@ a {
 
 /* HERO */
 .hero {
+    display: flex;
     background-color: #1f2937;
+}
+
+.title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.text {
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 /* INFO */
