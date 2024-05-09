@@ -75,6 +75,20 @@ a {
     padding: 32px;
 }
 
+.quoted {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quotee {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: right;
+}
+
 /* ACTION */
 .action {
     padding: 16px;
@@ -89,4 +103,5 @@ a {
 .footer {
     background-color: #1f2937;
     padding: 32px;
+    color: #f9faf8;
 }
