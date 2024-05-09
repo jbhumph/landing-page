@@ -11,6 +11,7 @@ body {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
+    padding: 8px;
 }
 
 .logo {
@@ -28,6 +29,7 @@ a {
 .hero {
     display: flex;
     background-color: #1f2937;
+    padding: 16px;
 }
 
 .title {
@@ -43,7 +45,7 @@ a {
 
 /* INFO */
 .info {
-
+    padding: 16px;
 }
 
 .random-title {
@@ -51,11 +53,13 @@ a {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    padding: 16px;
 }
 
 .images {
     display: flex;
     justify-content: space-around;
+    padding: 16px;
 }
 
 .frame {
@@ -68,18 +72,21 @@ a {
 /* QUOTE */
 .quote {
     background-color: #e5e7eb;
+    padding: 32px;
 }
 
 /* ACTION */
 .action {
-
+    padding: 16px;
 }
 
 .box {
     background-color: #3882f6;
+    padding: 48px;
 }
 
 /* FOOTER */
 .footer {
     background-color: #1f2937;
+    padding: 32px;
 }
