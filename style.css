@@ -2,24 +2,44 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 10px;
+    flex: auto;
 }
 
+/* HEADER */
 .header {
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
 }
 
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* HERO */
 .hero {
     background-color: #1f2937;
 }
 
+/* INFO */
 .info {
 
 }
 
+/* QUOTE */
 .quote {
     background-color: #e5e7eb;
 }
 
+/* ACTION */
 .action {
 
 }
@@ -28,6 +48,7 @@ body {
     background-color: #3882f6;
 }
 
+/* FOOTER */
 .footer {
     background-color: #1f2937;
 }
