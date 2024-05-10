@@ -15,11 +15,17 @@ body {
     justify-content: space-between;
     padding: 8px;
     flex: auto;
+    justify-content: center;
 }
 
 .logo {
     color: #f9faf8;
     font-size: 24px;
+    flex-basis: 450px;
+}
+
+.links {
+    flex-basis: 450px;
 }
 
 a {
@@ -34,6 +40,12 @@ a {
     background-color: #1f2937;
     padding: 16px;
     flex: auto;
+    justify-content: center;
+}
+
+.hero-left {
+    flex-basis: 450px;
+    padding: 16px;
 }
 
 .title {
@@ -45,6 +57,11 @@ a {
 .text {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.hero-right {
+    flex-basis: 450px;
+    align-content: center;
 }
 
 /* INFO */
@@ -77,6 +94,10 @@ a {
 .quote {
     background-color: #e5e7eb;
     padding: 32px;
+}
+
+.quote-box {
+
 }
 
 .quoted {
