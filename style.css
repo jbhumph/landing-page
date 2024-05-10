@@ -124,13 +124,16 @@ a {
 
 /* ACTION */
 .action {
+    display: flex;
     padding: 16px;
+    justify-content: center;
 }
 
 .box {
     background-color: #3882f6;
-    padding: 48px;
+    padding: 32px;
     color: #f9faf8;
+    flex-basis: 900px;
 }
 
 /* FOOTER */
