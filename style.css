@@ -79,6 +79,12 @@ a {
 
 .images {
     display: flex;
+    justify-content: center;
+}
+
+.inner-images {
+    display: flex;
+    flex-basis: 900px;
     justify-content: space-around;
     padding: 16px;
 }
@@ -86,7 +92,7 @@ a {
 .frame {
     display: flex;
     flex-direction: column;
-    max-width: 200px;
+    max-width: 150px;
     justify-items: space-around;
 }
 
@@ -94,10 +100,12 @@ a {
 .quote {
     background-color: #e5e7eb;
     padding: 32px;
+    display: flex;
+    justify-content: center;
 }
 
 .quote-box {
-
+    flex-basis: 900px;
 }
 
 .quoted {
