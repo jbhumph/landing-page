@@ -139,6 +139,13 @@ a:hover {
     border-radius: 8px;
 }
 
+.img:hover {
+    border-color: #3882f6;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
 /* QUOTE */
 .quote {
     background-color: #e5e7eb;
